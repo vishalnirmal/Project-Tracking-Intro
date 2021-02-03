@@ -5,35 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Project tracking intro component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
-
-  New
-  Monograph Dashboard
-
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <div class="main">
+    <div class="navigation">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+      <div class="menu">
+        <p class="item">Product</p>
+        <p class="item">Features</p>
+        <p class="item">Pricing</p>
+        <p class="item">|</p>
+        <p class="item">Login</p>
+      </div>
+      <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="icon-hamburger">
+      <img src="./images/icon-close.svg" alt="icon-close" class="icon-close">
+    </div>
+    <div class="section">
+      <div class="content">
+        <p class="name"><span>New</span>Monograph Dashboard</p>
+        <p class="title">Powerful insights into your team</p>
+        <p class="description">Project planning and time tracking for agile teams</p>
+        <div class="button-text">
+          <button>Schedule a demo</button>
+          <p>to see a live preview</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
